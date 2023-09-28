@@ -110,8 +110,8 @@
                     <t t-set="google_maps_api_key" t-value="request.env['website'].get_current_website().google_maps_api_key"/>
                     <t t-if="debug or not google_maps_api_key" t-snippet="website.s_map" string="Map" t-thumbnail="/website/static/src/img/snippets_thumbs/s_map.svg"/>
                     <t t-if="debug or google_maps_api_key" t-snippet="website.s_google_map" string="Map" t-thumbnail="/website/static/src/img/snippets_thumbs/s_google_map.svg"/>
-                    <t t-if="debug" t-snippet="website.s_dynamic_snippet" string="Dynamic Snippet" t-thumbnail="/website/static/src/img/snippets_thumbs/s_dynamic_snippet.svg"/>
-                    <t t-if="debug" t-snippet="website.s_dynamic_snippet_carousel" string="Dynamic Carousel" t-thumbnail="/website/static/src/img/snippets_thumbs/s_dynamic_carousel.svg"/>
+                    <t t-if="debug" t-snippet="website.s_dynamic_snippet" string="Dynamic Snippet1" t-thumbnail="/website/static/src/img/snippets_thumbs/s_dynamic_snippet.svg"/>
+                    <t t-if="debug" t-snippet="website.s_dynamic_snippet_carousel" string="Dynamic Carousel1" t-thumbnail="/website/static/src/img/snippets_thumbs/s_dynamic_carousel.svg"/>
                     <t id="sale_products_hook"/>
                     <t t-snippet="website.s_searchbar" string="Search" t-thumbnail="/website/static/src/img/snippets_thumbs/s_searchbar.svg" t-forbid-sanitize="form"/>
                     <t id="blog_posts_hook"/>
